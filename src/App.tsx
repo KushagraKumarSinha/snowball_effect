@@ -5,20 +5,7 @@ function App() {
 
   return (
     <>
-      <div style={{
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0,
-        background: 'linear-gradient(to bottom, #0f172a, #172554, #0f172a)',
-        color: 'white',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        padding: '0 1.5rem'
-      }}>
-
+      <div style={{position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'linear-gradient(to bottom, #0f172a, #172554, #0f172a)', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0 1.5rem'}}>
         <Snowfall color="white"/>
         <Snowfall color="red"/>
         
