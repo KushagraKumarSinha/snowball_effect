@@ -10,28 +10,13 @@ function App() {
         <Snowfall color="red"/>
         
         <div style={{ maxWidth: '56rem', textAlign: 'center' }}>
-          <h1 style={{
-            fontSize: '3.75rem',
-            fontWeight: 'bold',
-            marginBottom: '2rem',
-            lineHeight: '1.1'
-          }}>
-            <span style={{
-              background: 'linear-gradient(to right, #67e8f9, #60a5fa, #818cf8)',
-              WebkitBackgroundClip: 'text',
-              backgroundClip: 'text',
-              color: 'transparent'
-            }}>
+          <h1 style={{fontSize: '3.75rem', fontWeight: 'bold', marginBottom: '2rem', lineHeight: '1.1'}}>
+            <span style={{background: 'linear-gradient(to right, #67e8f9, #60a5fa, #818cf8)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent'}}>
               Let It Snow
             </span>
           </h1>
 
-          <p style={{
-            fontSize: '1.25rem',
-            color: '#cbd5e1',
-            marginBottom: '3rem',
-            lineHeight: '1.75'
-          }}>
+          <p style={{fontSize: '1.25rem', color: '#cbd5e1', marginBottom: '3rem', lineHeight: '1.75'}}>
             A beautiful snowfall animation showcase
           </p>
         </div>
