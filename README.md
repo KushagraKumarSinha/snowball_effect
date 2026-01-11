@@ -28,7 +28,6 @@ This repository serves as a practical example of how to integrate and customize 
 ```
 import Snowfall from 'react-snowfall'
 
-
 <Snowfall color="white" />
 <Snowfall color="red" />
 <Snowfall color="white" snowflakeCount={200} speed={[0.5, 2.5]} wind={[-0.5, 1]}/>
